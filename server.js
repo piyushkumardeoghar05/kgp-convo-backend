@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 const cors = require('cors');
 require('dotenv').config();
-const BASE_URL = "https://conversationsofkgpians.in/";
+const BASE_URL = "https://conversationsofkgpians.in";
 console.log(BASE_URL);
 const corsOptions ={
   origin:`${BASE_URL}`, 
