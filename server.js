@@ -15,7 +15,8 @@ app.use(cors(corsOptions));
 app.use(express.json());
 const formRouter = require("./Routes/formRoute");
 const subscriptionRouter = require("./Routes/subscriptionRoute");
-const uri =process.env.URI;
+const uri ="mongodb+srv://shreyaa2802:brAeWfJMHTo5OGfj@cluster0.iji1v8s.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 const PORT = 5000;
 app.use(express.json());
 mongoose
